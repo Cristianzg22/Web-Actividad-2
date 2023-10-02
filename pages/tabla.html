@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <!-- NavBar -->
+    <nav class="navbar">
+        <a href="home.html">Inicio</a>
+        <a href="registro.html">Registrarse</a>
+        <a href="tabla.html">Usuarios registrados</a>
+        <a href="/index.html">Exit</a>
+    </nav>
+
+    <!-- Página de tabla de usuarios registrados -->
+    <section id="pagina-tabla" class="table-container">
+        <h1 class="table-title">Usuarios registrados</h1>
+        <table class="user-table">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Correo electrónico</th>
+                    <th>Contraseña</th>
+                    <th>Cedula</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="user-name">Carlos</td>
+                    <td class="user-lastname">Gómez</td>
+                    <td class="user-email">carlos.gomez@example.com</td>
+                    <td class="user-password">qwerty123</td>
+                    <td class="user-identification">1357924680</td>
+                </tr>
+                <tr>
+                    <td class="user-name">Laura</td>
+                    <td class="user-lastname">Martínez</td>
+                    <td class="user-email">laura.martinez@example.com</td>
+                    <td class="user-password">password123</td>
+                    <td class="user-identification">2468013579</td>
+                </tr>
+                <tr>
+                    <td class="user-name">Luis</td>
+                    <td class="user-lastname">Rodríguez</td>
+                    <td class="user-email">luis.rodriguez@example.com</td>
+                    <td class="user-password">abcde56789</td>
+                    <td class="user-identification">9876543210</td>
+                </tr>
+                <tr>
+                    <td class="user-name">Ana</td>
+                    <td class="user-lastname">García</td>
+                    <td class="user-email">ana.garcia@example.com</td>
+                    <td class="user-password">ana12345</td>
+                    <td class="user-identification">6543219870</td>
+                </tr>
+                <tr>
+                    <td class="user-name">Pablo</td>
+                    <td class="user-lastname">Martínez</td>
+                    <td class="user-email">pablo.martinez@example.com</td>
+                    <td class="user-password">pablo56789</td>
+                    <td class="user-identification">1234567890</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <p class="footer-text">&copy; Cristian Zambrano</p>
+    </footer>
+
+    <script src="../js/tabla.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>
